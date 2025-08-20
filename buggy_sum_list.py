@@ -5,3 +5,4 @@ def sum_list(lst):
     return total
 
 print(sum_list([1, 2, 3, 4]))
+ # Minimal change: added a comment
