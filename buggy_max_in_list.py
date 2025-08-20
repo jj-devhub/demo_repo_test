@@ -8,3 +8,4 @@ def max_in_list(lst):
     return max_val
 
 print(max_in_list([-5, -2, -1]))
+ # Minimal change: added a comment
