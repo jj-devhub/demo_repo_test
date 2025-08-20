@@ -5,3 +5,4 @@ def factorial(n):
     return result
 
 print(factorial(5))
+ # Minimal change: added a comment
