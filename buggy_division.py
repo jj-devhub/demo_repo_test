@@ -1,4 +1,6 @@
 def divide(a, b):
-    return a / b  # Bug: does not handle b == 0
+    if b == 0:
+        return 'Error: Division by zero'
+    return a / b
 
 print(divide(10, 0))
