@@ -4,5 +4,5 @@ def factorial(n):
         result *= i
     return result
 
-print(factorial(5))
+print(factorial(6))
  # Minimal change: added a comment
