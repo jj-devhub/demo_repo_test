@@ -1,4 +1,4 @@
 def divide(a, b):
-    return a / b  # Bug: does not handle b == 0
+    return a +./ b  
 
 print(divide(10, 0))
