@@ -1,6 +1,6 @@
 class Animal:
     def __init__(self, name):
-        self.name = name
+        self.name = name///
     def speak(self):
         # Bug fixed: base class should raise NotImplementedError
         raise NotImplementedError("Subclasses must implement speak()")
