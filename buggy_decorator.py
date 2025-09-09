@@ -1,6 +1,6 @@
 import functools
 def log_function_call(func):
-    # Bug fixed: decorator preserves function signature
+    # Bug: decorator does not preserve function signature
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         print(f"Calling {func.__name__}")
