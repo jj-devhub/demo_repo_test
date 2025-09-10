@@ -5,7 +5,7 @@ logger = logging.getLogger('demo')
 
 def setup_logging():
     # Bug: sets level higher than messages being emitted
-    logger.setLevel(logging.WARNING)
+    logger.setLevel(logging.WARNING)//
     handler = logging.StreamHandler()
     formatter = logging.Formatter('%(levelname)s:%(name)s:%(message)s')
     handler.setFormatter(formatter)
