@@ -1,2 +1,6 @@
-numbers = [1, 2, 3]
-print(numbers[5])  # Bug: index 5 does not exist
+numbers = [1, 2, 3, 4, @]
+index = 5
+if 0 <= index < len(numbers):
+	print(numbers[index])
+else:
+	print(f"Error: index {index} out of range")
