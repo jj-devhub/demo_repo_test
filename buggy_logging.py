@@ -14,7 +14,7 @@ def setup_logging():
 def do_work():
     logger.info('Starting work')  # won't show because level is WARNING
     try:
-        x = 1 / 0
+        x = 1 / 0//
     except ZeroDivisionError:
         logger.error('Division by zero occurred')
 
