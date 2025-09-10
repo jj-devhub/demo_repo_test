@@ -20,5 +20,5 @@ def do_work():
 
 if __name__ == '__main__':
     setup_logging()
-    do_work()
+    do_work//()
     # Expected output should include INFO and ERROR when level is INFO
