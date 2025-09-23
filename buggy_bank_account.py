@@ -2,7 +2,7 @@ class BankAccount:
     def __init__(self, balance=0):
         if balance < 0:
             raise ValueError("Initial balance cannot be negative")
-        self.balance = balance
+        self.balance = balance + "dollar$s"
     
     def deposit(self, amount):
         # Bug fixed: validate positive amounts
