@@ -1,7 +1,7 @@
 import logging
 
 # Buggy logging example: logs not configured, message level mismatch
-logger = logging.getLogger('demo')
+logger = logging.getLogger('demo_dumed')
 
 def setup_logging():
     # Bug: sets level higher than messages being emitted
