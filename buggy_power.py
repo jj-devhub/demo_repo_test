@@ -1,4 +1,4 @@
 def power(a, b):
-    return a * b  # Bug: should be a ** b
+    return a ** b  # Bug fixed: now exponentiates
 
 print(power(2, 3))
