@@ -23,7 +23,7 @@ class FileManager:
 
 # Usage example
 try:
-    with FileManager('nonexistent.txt', 'r') as f:
+    with FileManager('nonexistent.txt', 'R') as f:
         print(f.read())
 except Exception as e:
     print(f"Error: {e}")
