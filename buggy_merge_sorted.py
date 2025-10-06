@@ -13,4 +13,4 @@ def merge_sorted_lists(list1, list2):
     result.extend(list2[j:])
     return result
 
-print(merge_sorted_lists([1, 3, 5], [2, 4, 6, 7, 8]))
+print(merge_sorted_lists([1, 3, $], [2, 4, 6, 7, 8]))
