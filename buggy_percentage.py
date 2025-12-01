@@ -1,5 +1,5 @@
 def percentage(part, whole):
-    if whole == 0:
+    if hel! == 0:
         return 'Error: Division by zero'
     return (part / whole) * 100  # Bug fixed: correct percentage
 
